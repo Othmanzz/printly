@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+/*
+Login Form
+*/
+
+html, body, h1, h2, h3, h4, h5, h6, p, a  {
+    font-family: 'Tajawal', sans-serif;
+}
+
+html body.bg-full-screen-image {
+    background: #F3F3F3;
+    position: relative;
+    z-index: 0;
+}
+html body.bg-full-screen-image::before {
+    content: "";
+    width: 484px;
+    height: 361px;
+    background-image: url(../../app-assets/images/pages/f_logo_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+a {
+    color: #9B945F;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all 1s;
+}
+a:hover {
+    color: #028856;
+    text-decoration: none;
+    transition: all 1s; 
+}
+
+.btn-success {
+    width: auto;
+    border-color: #0C8C5C !important;
+    background-color: #0C8C5C !important;
+    color: #FFFFFF;
+}
+.btn-success:hover {
+    background-color: #3ba56a !important;
+    border-color: #3ba56a !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 8px 25px -8px #3ba56a;
+}
+
+.btn-primary {
+    width: auto;
+    border-color: #9B945F !important;
+    background-color: #9B945F !important;
+    color: #FFFFFF;
+}
+.btn-primary:hover {
+    background-color: #8a866d !important;
+    border-color: #8a866d !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 8px 25px -8px #8a866d;
+}
+
+.btn-outline-primary {
+    width: auto;
+    border: 1px solid #9B945F;
+    background-color: transparent;
+    color: #9B945F;
+}
+.btn-outline-primary:hover {
+    color: #FFFFFF;
+    background-color: #3ba56a;
+    border-color: #3ba56a;
+}
+
+.bg-authentication {
+    background: #fff;
+}
+.card .card {
+    border-left: 1px solid #eee;
+}
+.card .card-content .card-body .form-group .form-control {
+    border: 1px solid #9B945F;
+    transition: all 1s;
+}
+.card .card-content .card-body .form-group .form-control:focus {
+    border: 1px solid #008755;
+    transition: all 1s;
+}
+.card .card-content .card-body .form-group .form-control:focus ~ .form-control-position i {
+    color: #008755;
+}
+.card .card-content .card-body .form-group .btn-primary {
+    border-color: #008755 !important;
+    background-color: #008755 !important;
+    color: #FFFFFF;
+    width: 100%;
+}
+.card .card-content .card-body .form-group .btn-primary:hover {
+    box-shadow: 0 8px 25px -8px #008755;
+}
+.card .card-content .card-body .form-group .btn-link {
+    color: #008755;
+    padding: 10px 0;
+}
+
+.form-label-group > input:focus:not(:placeholder-shown) ~ label, 
+.form-label-group > input:not(:active):not(:placeholder-shown) ~ label, 
+.form-label-group textarea:focus:not(:placeholder-shown) ~ label, 
+.form-label-group textarea:not(:active):not(:placeholder-shown) ~ label {
+    color: #008755 !important;
+}
+
+.vs-checkbox-primary input:checked ~ .vs-checkbox {
+    border-color: #008755 !important;
+}
+.vs-checkbox-primary input:checked ~ .vs-checkbox .vs-checkbox--check {
+    background-color: #008755 !important;
+}

@@ -1,0 +1,312 @@
+/*
+General Style Layout
+*/
+@@media print {
+
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Tajawal', sans-serif;
+  color: #008755;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a:focus, .btn, .btn:focus {
+  outline: 0;
+  border: 0;
+}
+
+.form-control {
+  border: 0;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  outline: 0;
+  border: 0;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+}
+
+/*
+    Form Pages
+*/
+.form-page {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.form-page .logo {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-page .logo img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.form-page .heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-page .heading h4 {
+  font-weight: 700;
+  color: #000;
+}
+
+.form-page .custom-form {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.form-page .custom-form fieldset legend {
+  font-weight: 700;
+  font-size: 18px;
+  color: #757575;
+}
+
+.form-page .custom-form fieldset h6 {
+  margin-bottom: 20px;
+}
+
+.form-page .custom-form fieldset .form-group {
+  margin-bottom: 20px;
+}
+
+.form-page .custom-form fieldset .form-group label {
+  font-weight: 700;
+  color: #9B945F;
+}
+
+.form-page .custom-form fieldset .form-group .form-control {
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #9B945F;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.form-page .custom-form fieldset .form-group .form-control:focus {
+  border: 1px solid #008755;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 135, 85, 0.15);
+  box-shadow: 0px 10px 20px 0px rgba(0, 135, 85, 0.15);
+}
+
+.form-page .custom-form fieldset .form-group textarea {
+  min-height: 200px;
+}
+
+.form-page .custom-form fieldset .form-group .radio-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 20px;
+}
+
+.form-page .custom-form fieldset .form-group .radio-wrapper .form-check {
+  margin-left: 30px;
+  padding-left: 0;
+}
+
+.form-page .custom-form fieldset .form-group .radio-wrapper .form-check .form-check-label {
+  padding-right: 0 !important;
+  margin-left: 30px;
+}
+
+.form-page .custom-form fieldset .checkbox {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #9B945F;
+  border-radius: 4px;
+}
+
+.form-page .custom-form fieldset .checkbox .vs-checkbox-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-page .custom-form fieldset .checkbox .vs-checkbox-con .text {
+  color: #9B945F;
+}
+
+.form-page .custom-form fieldset .custom-control {
+  display: block !important;
+}
+
+.form-page .custom-form fieldset .box {
+  padding: 20px;
+  display: none;
+  margin-top: 20px;
+}
+
+.form-page h6 {
+  color: #212121;
+  margin: 30px auto;
+}
+
+.form-page h4 {
+  margin-bottom: 30px;
+}
+
+.form-page hr {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*
+    Table Pages
+*/
+.table-page {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.table-page .heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.table-page .heading h4 {
+  font-weight: 700;
+  color: #000;
+}
+
+/*
+    Table
+*/
+.table {
+  margin: 30px auto;
+}
+
+/*
+Text Page
+*/
+/*.text-page .table thead tr th {*/
+/*  text-align: center !important;*/
+/*  vertical-align: middle;*/
+/*}*/
+
+/*.text-page .table tbody tr td {*/
+/*  text-align: center;*/
+/*}*/
+
+/*.text-page .to {*/
+/*  margin-top: 30px;*/
+/*  margin-bottom: 40px;*/
+/*}*/
+
+/*.text-page .to h6 {*/
+/*  color: #212121;*/
+/*  overflow: hidden;*/
+/*  font-weight: bold;*/
+/*  margin-bottom: 20px;*/
+/*}*/
+
+/*.text-page .to h6 span {*/
+/*  float: left;*/
+/*}*/
+
+/*.text-page .message {*/
+/*  margin-bottom: 40px;*/
+/*}*/
+
+/*.text-page .message p {*/
+/*  text-align: center;*/
+/*  margin-bottom: 15px;*/
+/*  font-size: 20px;*/
+/*  color: #212121;*/
+/*}*/
+
+/*.text-page .message ul {*/
+/*  list-style-type: decimal;*/
+/*}*/
+
+/*.text-page .message ul li {*/
+/*  font-size: 20px;*/
+/*  color: #212121;*/
+/*  margin-bottom: 15px;*/
+/*}*/
+
+/*.text-page .signture {*/
+/*  margin-bottom: 60px;*/
+/*}*/
+
+/*.text-page .signture h5 {*/
+/*  color: #212121;*/
+/*  font-weight: bold;*/
+/*  margin-bottom: 20px;*/
+/*}*/
+
+/*.text-page .signture h6 {*/
+/*  text-align: center;*/
+/*  margin: 0 30px;*/
+/*  color: #212121;*/
+/*}*/
+
+/*.text-page .copies small {*/
+/*  display: block;*/
+/*  margin-bottom: 2px;*/
+/*  color: #212121;*/
+/*}*/
+/*# sourceMappingURL=ltr.css.map */
+}
